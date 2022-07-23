@@ -57,7 +57,17 @@ body{
     border-radius: 0.5vw;
     font-size: 0.7vw;
     font-weight: 600;
+    transition: 0.2s ease-in-out 0s;
+    cursor: pointer;
+    
 }
+
+/* animation-style */
+.banner-button:hover{
+   transform: scale(1.25);
+
+}
+
 
 
 /* fa-angle-right-style */
@@ -238,11 +248,15 @@ button{
     padding-top: 1vw;
 }
 
+
+/* nav-ul-style */
 nav ul{
     display: flex;
     justify-content: center
 
 }
+
+/* nav-li-style */
 nav li{
     list-style: none;
     margin-left: 1.6vw;
